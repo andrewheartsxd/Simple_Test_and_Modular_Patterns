@@ -8,7 +8,7 @@ var greetingAgain = require('../app');
 describe('greet() when given a string', function () {
 	
   it('should return "hello dog"', function () {
-		var something = "dog"
+		var something = "dog";
     var result = greetingAgain(something);
 		expect(result).equal('hello dog');
 	});
